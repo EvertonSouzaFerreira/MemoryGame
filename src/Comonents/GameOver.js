@@ -3,10 +3,10 @@ import React, { useEffect } from "react"
 function GameOver(props) {
   return ( props.show?
     <div id="gameOver">
-        <div>
-            Parabéns, você completou o jogo!
+        <div className="wellDone">
+            Well Done!
         </div>
-        <button id="restart" onClick={props.handleRestart}>Jogue novamente</button>
+        <button className="play" id="restart" onClick={props.handleRestart}>Jogue novamente</button>
     </div>: <></>
   )
 }

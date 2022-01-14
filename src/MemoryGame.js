@@ -4,7 +4,7 @@ import game from "./game/game"
 import GameBoard from "./Comonents/GameBoard"
 
 function MemoryGame() {
-  const [gameOver, setGameover] = useState(false)
+  const [gameOver, setGameover] = useState(true)
   const  [cards, setCards] = useState([])
 
   useEffect(()=> {
